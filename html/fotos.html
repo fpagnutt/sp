@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <title>SEMPRE PRONTO PIZZA</title>
+        <link rel="icon" href="../img/pizza.png">
+        <meta name="description" content="" />
+        <meta name="keywords" content="web, sempre pronto" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa fa-align-justify"></i>
+            </label>
+            <label class="logo"><a href="../index.html"><span style="color: red;">S</span>empre <span style="color: red;">P</span>ronto</a></label>
+            <ul>
+                <li><a href="../index.html" >INIZIO</a></li>
+                <li><a href="./menu.html" >MENU</a></li>
+                <li><a href="./fotos.html" class="active">FOTOGRAFIE</a></li>
+                <li><a href="./contacto.html">CONTATTO</a></li>
+            </ul>
+        </nav>
+        <div class="fondito">
+            <div class="full-img" id="fullImgBox">
+                <img src="../img/p1.jpg" alt="analogImage" id="fullImg">
+                <span onclick="closeImg()">x</span>
+            </div>
+        
+            <div class="img-gallery">
+                <img src="../img/p1.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+                <img src="../img/p2.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+                <img src="../img/p3.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+                <img src="../img/p4.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+                <img src="../img/p5.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+                <img src="../img/p6.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+                <img src="../img/p7.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+                <img src="../img/p8.jpg" onclick="openFullImg(this.src)" alt="analogImage">
+            </div>    
+        </div>
+        <script src="../js/variables.js"></script>
+        <script src="../js/script.js"></script>
+    </body>
+</html>
